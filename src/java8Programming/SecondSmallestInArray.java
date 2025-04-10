@@ -10,8 +10,6 @@ public class SecondSmallestInArray {
 		int num=Arrays.stream(arr).distinct().skip(1).limit(1).findFirst().
 				orElseThrow(() -> new IllegalArgumentException("no second smallest"));
 		System.out.println("second smallest"+num);
-
-		
 		
 	}
 
