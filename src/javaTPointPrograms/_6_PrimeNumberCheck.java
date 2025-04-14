@@ -1,4 +1,4 @@
-package java8Programming;
+package javaTPointPrograms;
 
 import java.util.stream.IntStream;
 
