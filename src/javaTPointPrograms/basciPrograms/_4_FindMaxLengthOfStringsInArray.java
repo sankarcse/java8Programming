@@ -1,6 +1,5 @@
-package javaTPointPrograms;
+package javaTPointPrograms.basciPrograms;
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class _4_FindMaxLengthOfStringsInArray {

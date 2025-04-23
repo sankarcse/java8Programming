@@ -1,6 +1,5 @@
-package javaTPointPrograms;
+package javaTPointPrograms.basciPrograms;
 
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class _10_FactorialOfNumber {

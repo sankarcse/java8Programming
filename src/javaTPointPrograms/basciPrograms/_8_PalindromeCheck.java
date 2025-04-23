@@ -1,4 +1,4 @@
-package javaTPointPrograms;
+package javaTPointPrograms.basciPrograms;
 
 public class _8_PalindromeCheck {
     public static void main(String[] args) {

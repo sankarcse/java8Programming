@@ -1,4 +1,4 @@
-package javaTPointPrograms;
+package javaTPointPrograms.basciPrograms;
 
 public class _11_ArmstrongNumber {
     public static void main(String[] args) {

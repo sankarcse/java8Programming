@@ -1,4 +1,4 @@
-package javaTPointPrograms;
+package javaTPointPrograms.basciPrograms;
 
 import java.util.Random;
 
