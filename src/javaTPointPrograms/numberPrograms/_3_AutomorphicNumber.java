@@ -17,4 +17,5 @@ public class _3_AutomorphicNumber {
         else
             System.out.println(num+" is not automorphic");
     }
+
 }
