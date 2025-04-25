@@ -25,7 +25,8 @@ public class _8_KeithNumber {
             else if (sum>number)
                 return false;
 
-            str= Arrays.stream(str.split("#")).skip(1).reduce("",(s, s2) -> s+"#"+s2)+"#"+sum;
+            str= Arrays.stream(str.split("#")).skip(1).
+                    reduce("",(s, s2) -> s+"#"+s2)+"#"+sum;
             str=str.substring(1);
 
         }
