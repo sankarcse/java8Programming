@@ -1,6 +1,5 @@
 package javaTPointPrograms.numberPrograms;
 
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class _13_NthPrimeNumber {
@@ -10,7 +9,6 @@ public class _13_NthPrimeNumber {
                 filter(_13_NthPrimeNumber::isPrime).boxed()
                 .limit(num).toList().stream().skip(num-1).forEach(System.out::println);
     }
-
     private static boolean isPrime(int num){
         return IntStream.rangeClosed(2,(int)Math.sqrt(num)).noneMatch(x->num%x==0);
     }
